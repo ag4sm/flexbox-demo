@@ -45,10 +45,12 @@ li:hover {
 }
 
 .hero {
-    height: 700px;
     display: flex;
+    height: 700px;
     align-items: center;
+    justify-content: center;
     background-image: url("../images/mission-background.jpg");
+    background-position: center;
 }
 
 #mission {
@@ -60,4 +62,9 @@ li:hover {
 
 h2,h4 {
     text-align: center;
+}
+
+.tea_month {
+    display: flex;
+    max-width: 1000px;
 }
