@@ -66,13 +66,20 @@ h2,h4 {
 }
 
 .tea_month {
+    margin: auto;
     text-align: center;
     opacity: 0.7;
     display: flex;
     flex-wrap: wrap;
     max-width: 1000px;
-    align-items: center;
+    align-items: space-between;
     justify-content: center;
+}
+
+.tea_month img {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
 }
 
 .tea_month h2,h4 {
@@ -81,9 +88,4 @@ h2,h4 {
     padding: 20px;
 }
 
-.tea_month section {
-    display: flex;
-    width: 300px;
-    height: 200px;
-    justify-content: space-between;
-}
+
