@@ -79,7 +79,7 @@ h2,h4 {
 .tea_month img {
     width: 300px;
     height: 200px;
-    padding: 20px;
+    padding: 10px;
 }
 
 .tea_month h2,h4 {
@@ -88,4 +88,24 @@ h2,h4 {
     padding: 20px;
 }
 
+.locations h2 {
+    margin: auto;
+    width: 100%;
+}
 
+.locationimage {
+    margin: 50px 0 20px 0;
+    display: flex;
+    height: 500px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url("../images/locations-background.jpg");
+    background-position: center;
+}
+
+.locationbox {
+    background-color: black;
+    justify-content: space-between;
+    width: 300px;
+}
