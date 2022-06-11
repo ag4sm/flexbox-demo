@@ -106,6 +106,14 @@ h2,h4 {
 
 .locationbox {
     background-color: black;
-    justify-content: space-between;
+    display: block;
+    height: 250px;
     width: 300px;
+    margin: 20px;
+}
+
+.locationbox h3 {
+    opacity: 0.7;
+    margin: 15px;
+    text-align: center;
 }
